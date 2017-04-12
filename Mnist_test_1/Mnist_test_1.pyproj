@@ -5,13 +5,16 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>1d85aa9b-966f-4aaf-85ce-9c9ae05ceb77</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Mnist_test_1.py</StartupFile>
+    <StartupFile>Mnist_cnn_1.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
     <Name>Mnist_test_1</Name>
     <RootNamespace>Mnist_test_1</RootNamespace>
+    <IsWindowsApplication>False</IsWindowsApplication>
+    <InterpreterId>{7d72acc2-170a-475b-8d50-76fabd7375c6}</InterpreterId>
+    <InterpreterVersion>3.5</InterpreterVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -22,7 +25,13 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Mnist_cnn_1.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Mnist_test_1.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="{7d72acc2-170a-475b-8d50-76fabd7375c6}\3.5" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

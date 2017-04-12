@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<ProfilingTarget xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectTarget>
+    <TargetProject>1d85aa9b-966f-4aaf-85ce-9c9ae05ceb77</TargetProject>
+    <FriendlyName>Mnist_test_1</FriendlyName>
+  </ProjectTarget>
+</ProfilingTarget>
